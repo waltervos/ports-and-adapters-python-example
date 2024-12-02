@@ -4,7 +4,7 @@ from interest_calculator.adapters.driven import (
     FixedCurrentDateRepository,
     FixedInterestRateRepository,
 )
-from interest_calculator.app.ports.driving import SimpleInterestCalculator
+from interest_calculator.app.simple import SimpleInterestCalculator
 
 
 def test_zero_interest_rate_returns_zero():

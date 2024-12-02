@@ -3,7 +3,7 @@ from interest_calculator.adapters.driven import (
     FixedInterestRateRepository,
 )
 from interest_calculator.adapters.driving import CliBasedInterestCalculator
-from interest_calculator.app.ports.driving import SimpleInterestCalculator
+from interest_calculator.app.simple import SimpleInterestCalculator
 
 
 def main():
